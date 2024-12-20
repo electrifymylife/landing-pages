@@ -1,0 +1,70 @@
+.licenses {
+
+  .name {
+    max-width: 360px;
+    margin: 0 auto 8px auto;
+    min-height: 50px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #353535;
+    text-align: center;
+
+    @media (max-width: 420px) {
+      font-size: 16px;
+    }
+  }
+
+  .col {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-block {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    line-height: 1;
+    color: #353535;
+    margin: 4px 0;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .img {
+    max-height: 240px;
+    border: 1px solid #dadada;
+    margin: 0 2px;
+
+   &--full-screen {
+     height: 100%;
+
+     @media (max-width: 500px) {
+       height: auto;
+     }
+   }
+  }
+
+  .zoom-in {
+    background: url('https://fs.advance.ru/landing-pages/icons/about_us/zoom-in.png') center no-repeat;
+    width: 50px;
+    height: 51px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    margin: 0 auto;
+  }
+}
+
+.licenses__pagination {
+  text-align: center;
+  margin-top: 14px;
+}

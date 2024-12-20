@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+}
+
+.content {
+  width: 50%;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+
+.image {
+  @media (max-width: 767px) {
+    width: 80%;
+  }
+}
+

@@ -1,0 +1,49 @@
+.btn {
+  position: fixed;
+  right: -150px;
+  bottom: 45%;
+  height: 50px;
+  width: 50px;
+  background: transparent !important;
+  border: none !important;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    svg {
+      & circle {
+        fill: #e12718;
+        stroke: #e12718;
+      }
+      & rect {
+        fill: #ffffff;
+      }
+    }
+  }
+
+  &.show {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-35px);
+  }
+
+  svg {
+    & circle {
+      fill: #fff;
+      stroke: #959595;
+      -webkit-transition: 0.2s ease-in-out;
+      -o-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+    }
+    & rect {
+      fill: #959595;
+      -webkit-transition: 0.2s ease-in-out;
+      -o-transition: 0.2s ease-in-out;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,226 @@
+.house {
+  position: relative;
+  margin-bottom: -5px;
+
+  & picture {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  & button {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 16.5%;
+    height: 14.5%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    @media (max-width: 1199px) {
+      width: 27.5%;
+    }
+    @media (max-width: 767px ) {
+      width: 48%;
+      height: 11.5%;
+    }
+
+    &.btn9 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/09-close.png");
+      top: 19.8%;
+      left: 33.5%;
+      @media (max-width: 1199px) {
+        top: 19.9%;
+        left: 22.4%;
+      }
+      @media (max-width: 767px ) {
+        top: 16.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/09-open.png");
+      }
+    }
+    &.btn10 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/10-close.png");
+      top: 19.8%;
+      left: 49.9%;
+      @media (max-width: 1199px) {
+        top: 19.9%;
+        left: 50%;
+      }
+      @media (max-width: 767px ) {
+        top: 16.5%;
+        left: 50%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/10-open.png");
+      }
+    }
+    &.btn11 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/11-close.png");
+      top: 35.1%;
+      left: 25.3%;
+      @media (max-width: 1199px) {
+        top: 35.2%;
+        left: 8.9%;
+      }
+      @media (max-width: 767px ) {
+        top: 28.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/11-open.png");
+      }
+    }
+    &.btn12 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/12-close.png");
+      top: 35.1%;
+      left: 41.8%;
+      @media (max-width: 1199px) {
+        top: 35.2%;
+        left: 36.4%;
+      }
+      @media (max-width: 767px ) {
+        top: 28.5%;
+        left: 50%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/12-open.png");
+      }
+    }
+    &.btn13 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/13-close.png");
+      top: 35.1%;
+      left: 58.3%;
+      @media (max-width: 1199px) {
+        top: 35.2%;
+        left: 64%;
+      }
+      @media (max-width: 767px ) {
+        top: 40.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/13-open.png");
+      }
+    }
+    &.btn14 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/14-close.png");
+      top: 50.4%;
+      left: 25.3%;
+      @media (max-width: 1199px) {
+        top: 50.5%;
+        left: 8.8%;
+      }
+      @media (max-width: 767px ) {
+        top: 40.5%;
+        left: 50%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/14-open.png");
+      }
+    }
+    &.btn15 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/15-close.png");
+      top: 50.4%;
+      left: 41.8%;
+      @media (max-width: 1199px) {
+        top: 50.5%;
+        left: 36.4%;
+      }
+      @media (max-width: 767px ) {
+        top: 52.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/15-open.png");
+      }
+    }
+    &.btn16 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/16-close.png");
+      top: 50.4%;
+      left: 58.3%;
+      @media (max-width: 1199px) {
+        top: 50.5%;
+        left: 64%;
+      }
+      @media (max-width: 767px ) {
+        top: 52.5%;
+        left: 50%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/16-open.png");
+      }
+    }
+    &.btn17 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/17-close.png");
+      top: 65.7%;
+      left: 25.3%;
+      @media (max-width: 1199px) {
+        top: 65.8%;
+        left: 8.8%;
+      }
+      @media (max-width: 767px ) {
+        top: 64.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/17-open.png");
+      }
+    }
+    &.btn18 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/18-close.png");
+      top: 65.7%;
+      left: 41.8%;
+      @media (max-width: 1199px) {
+        top: 65.8%;
+        left: 36.4%;
+      }
+      @media (max-width: 767px ) {
+        top: 64.5%;
+        left: 50%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/18-open.png");
+      }
+    }
+    &.btn19 {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/19-close.png");
+      top: 65.7%;
+      left: 58.3%;
+      @media (max-width: 1199px) {
+        top: 65.8%;
+        left: 64%;
+      }
+      @media (max-width: 767px ) {
+        top: 76.5%;
+        left: 1%;
+      }
+
+      &.open {
+        background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/19-open.png");
+      }
+    }
+
+    &.open {
+      pointer-events: unset;
+    }
+
+    &.closed {
+      background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/0-fullclosed.png");
+    }
+  }
+}

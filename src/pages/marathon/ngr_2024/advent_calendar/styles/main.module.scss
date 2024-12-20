@@ -1,0 +1,74 @@
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 50px;
+  @media (max-width: 991px) {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  background: linear-gradient(180deg, #EE4704 0%, #BD2400 100%);
+  box-shadow: 0px 15px 30px #EE4704, inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px 40px 40px #FF6324;
+  border-radius: 20px;
+  padding: 15px 10px;
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  position: relative;
+  margin: 0 auto;
+
+  &:visited {
+    color: #FFF;
+  }
+
+  &.violet-shadow {
+    box-shadow: 0px 15px 30px #38006F, inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px 40px 40px #FF6324;
+    &:hover,
+    &:focus {
+      box-shadow: 0px 15px 30px #EE4704, inset 0px 2px 0px rgba(255, 255, 255, 0.3), inset 0px 40px 40px #FF6324;
+    }
+  }
+
+  @media (max-width: 991px) {
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px;
+    height: 50px;
+  }
+}
+
+.bg-big {
+  background: linear-gradient(3.48deg, #DCBAFF 2.87%, #F0EDFF 97.13%);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  @media (max-width: 991px) {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+}
+
+.bg-house {
+  background-image: url("https://fs.advance.ru/landing-pages/marathon/ngr_2024/advent_calendar/bg-ngr-sky-1920.jpg");
+  background-color: #6F00E2;
+  background-position: top center;
+  background-size: cover;
+}

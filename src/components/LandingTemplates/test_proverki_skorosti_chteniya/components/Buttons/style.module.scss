@@ -1,0 +1,55 @@
+.btn--main {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  background: linear-gradient(180deg, #9FC232 0%, #809D25 100%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px -2px 0px rgba(0, 0, 0, 0.25), inset 0px 2px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 18px 5px;
+  transition: all 0s;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(180deg, #9FC232 0%, #809D25 100%);
+  }
+
+  &:active {
+    box-shadow: none;
+    background: linear-gradient(180deg, #9FC232 0%, #809D25 100%);
+  }
+}
+
+.btn--restart {
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 20px auto 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 40px;
+  width: 100%;
+  max-width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  border-radius: 30px;
+  color: #9FC232;
+  border: 1px solid #9FC232;
+
+  &:visited {
+    color: #9FC232;
+  }
+
+  &:hover {
+    box-shadow: none;
+  }
+}

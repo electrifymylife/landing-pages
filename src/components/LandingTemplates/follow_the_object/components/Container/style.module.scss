@@ -1,0 +1,31 @@
+.main-container {
+  @media (max-width: 767px) {
+    padding: 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #F2F3FA;
+  border-radius: 20px;
+  padding: 95px;
+
+  @media (max-width: 1230px) {
+    gap: 24px;
+    padding: 60px;
+  }
+  @media (max-width: 1140px) {
+    padding: 60px 20px;
+  }
+  @media (max-width: 991px) {
+    padding: 60px;
+    border-radius: 12px;
+  }
+  @media (max-width: 767px) {
+    gap: 17px;
+    padding: 17px 9px;
+    border-radius: 0;
+  }
+}

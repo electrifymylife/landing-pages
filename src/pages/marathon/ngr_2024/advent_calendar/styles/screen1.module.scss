@@ -1,0 +1,160 @@
+.screen1 {
+  color: #FFF;
+  text-align: center;
+  padding: 70px 0 50px;
+
+  @media (max-width: 991px) {
+    padding: 30px 0 20px;
+  }
+  @media (max-width: 767px) {
+    padding: 20px 0 10px;
+  }
+
+  .logo-container {
+    width: fit-content;
+    margin: 0 auto 30px;
+    @media (max-width: 991px) {
+      margin: 0 auto 20px;
+    }
+  }
+
+  .logo-wrap {
+    position: relative;
+
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+      background-color: #F1F2F2;
+      width: calc((100% - 168px - 15px*2) / 2);
+      height: 2px;
+      bottom: 27px;
+    }
+    &:before {
+      left: 0;
+    }
+    &:after {
+      right: 0;
+    }
+  }
+
+  h2 {
+    font-family: "Koryaka", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F1F2F2;
+    padding-bottom: 15px;
+    @media (max-width: 991px) {
+      font-size: 20px;
+    }
+  }
+
+  h1 {
+    margin: 50px auto;
+    @media (max-width: 991px) {
+      margin: 30px auto 20px;
+      max-width: 650px;
+    }
+    @media (max-width: 767px) {
+      margin: 20px auto 10px;
+    }
+  }
+
+  .btn {
+    max-width: 558px;
+    @media (max-width: 991px) {
+      max-width: 358px;
+    }
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+
+  .timer-wrap {
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(215, 99, 255, 0.5) 0%, rgba(141, 9, 187, 0.5) 100%);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 10px 20px 15px;
+    margin: 50px auto 0;
+    width: fit-content;
+    @media (max-width: 991px) {
+      margin: 20px auto 0;
+    }
+
+    h3 {
+      font-family: "Koryaka", sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-bottom: 12px;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .timer {
+    display: flex;
+    justify-content: center;
+    & p {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      &:not(:last-child) {
+        position: relative;
+        padding-right: calc(5px + 5px + 5px);
+        &:before {
+          position: absolute;
+          content: '';
+          background-image: url('data:image/svg+xml,<svg width="5" height="22" viewBox="0 0 5 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.69813 19.28C4.69813 19.8933 4.49813 20.4133 4.09813 20.84C3.72479 21.2667 3.19146 21.48 2.49813 21.48C1.80479 21.48 1.25813 21.2667 0.858125 20.84C0.484792 20.4133 0.298125 19.8933 0.298125 19.28C0.298125 18.6667 0.484792 18.1467 0.858125 17.72C1.25813 17.2933 1.80479 17.08 2.49813 17.08C3.19146 17.08 3.72479 17.2933 4.09813 17.72C4.49813 18.1467 4.69813 18.6667 4.69813 19.28ZM4.69813 2.52C4.69813 3.13333 4.49813 3.65333 4.09813 4.08C3.72479 4.50667 3.19146 4.72 2.49813 4.72C1.80479 4.72 1.25813 4.50667 0.858125 4.08C0.484792 3.65333 0.298125 3.13333 0.298125 2.52C0.298125 1.90667 0.484792 1.38667 0.858125 0.959998C1.25813 0.533332 1.80479 0.319999 2.49813 0.319999C3.19146 0.319999 3.72479 0.533332 4.09813 0.959998C4.49813 1.38667 4.69813 1.90667 4.69813 2.52Z" fill="white"/></svg>');
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 5px;
+          height: 22px;
+          top: calc(70px/2 - 22px/2);
+          right: 5px;
+        }
+      }
+
+      & span {
+        text-align: center;
+        &:first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 1;
+          background-color: #9349FF;
+          border-radius: 10px;
+          width: 70px;
+          height: 70px;
+        }
+        &:last-child {
+          font-size: 14px;
+          font-weight: 300;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .jump-btn {
+    display: none;
+    font-family: "Koryaka", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+    border-bottom: 1px dashed;
+    width: fit-content;
+    margin-top: 5px;
+
+    @media (max-width: 767px) {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.background-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 16px 16px 16px;
+
+  & swiper-container {
+    height: 100%;
+  }
+
+  & swiper-slide {
+    padding: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  & img {
+    height: auto;
+    max-height: 85vh;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+

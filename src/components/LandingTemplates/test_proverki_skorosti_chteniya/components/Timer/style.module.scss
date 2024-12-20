@@ -1,0 +1,29 @@
+.timer {
+  color: #838383;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 400;
+    position: relative;
+    padding-left: 23px;
+    &:before {
+      position: absolute;
+      content: '';
+      background-image: url("https://fs.advance.ru/landing-pages/free/test_proverki_skorosti_chteniya/clock-small.svg");
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px;
+      top: 3px;
+      left: 0;
+    }
+  }
+
+  p {
+    font-weight: 700;
+  }
+}

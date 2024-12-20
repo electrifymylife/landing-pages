@@ -1,0 +1,17 @@
+.screen1 {
+  color: #1A2E35;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .btn-block {
+    margin-top: 25px;
+    @media (max-width: 767px) {
+      margin: 25px 0 auto;
+    }
+  }
+}
